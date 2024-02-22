@@ -1,0 +1,8 @@
+go 1.22.0
+
+// we are only using an specific module from the example directory, not the whole module
+
+use (
+	./example/hello
+	./mymodule
+)
